@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicio09Grid_3196382.EjemploGrid"
+             Title="EjemploGrid">
+    <VerticalStackLayout>
+        <Label
+        Text="EjemploGrid"
+        VerticalOptions="Center"
+        HorizontalOptions="Center" />
+
+        <Grid RowSpacing="6" ColumnSpacing="6">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100"></RowDefinition>
+                <RowDefinition Height="100"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <Button Text="0,0" Grid.Row="0" Grid.Column="0" BackgroundColor="#F26A41" />
+            <Button Text="0,1" Grid.Row="0" Grid.Column="1" BackgroundColor="#48A1EE" />
+            <Button Text="1,0" Grid.Row="1" Grid.Column="0" BackgroundColor="#299D6D" />
+            <Button Text="1,1" Grid.Row="1" Grid.Column="1" BackgroundColor="#ABB75D" />
+
+        </Grid>
+    </VerticalStackLayout>
+</ContentPage>
